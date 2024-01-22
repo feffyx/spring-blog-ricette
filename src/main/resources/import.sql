@@ -2,3 +2,9 @@ INSERT INTO ricetta (titolo, ingredienti, url_foto, tempo_preparazione, porzioni
 INSERT INTO ricetta (titolo, ingredienti, url_foto, tempo_preparazione, porzioni, testo_ricetta,) VALUES ('Roast Beef', '1Kg di manzo, Rosmarino, Salvia, Sale, Pepe', 'https://www.giallozafferano.it/images/181-18159/Roast-beef-all-inglese_450x300.jpg', 50, 4, '1. Per preparare il roast beef...\n2. Chiudete con il suo coperchio...\n3. In una ciotola versate...\n4. Il roast beef all\'inglese si può conservare per 1 giorno al massimo in frigorifero. Si sconsiglia la congelazione.');
 INSERT INTO ricetta (titolo, ingredienti, url_foto, tempo_preparazione, porzioni, testo_ricetta,) VALUES ('Patate al forno', '1Kg di Patate, Aglio, Rosmarino, Olio d\'oliva, Sale, Pepe', 'https://www.giallozafferano.it/images/242-24202/Patate-al-forno_450x300.jpg', 20, 4, '1. Dividete le patate a metà...\n2. Sbollentatele...\n3. Aggiungete sale, pepe...\n4. Potete conservare le patate al forno in un contenitore ermetico, riposto in frigo per un paio di giorni al massimo.');
 INSERT INTO ricetta (titolo, ingredienti, url_foto, tempo_preparazione, porzioni, testo_ricetta,) VALUES ('Pancake', 'Farina OO, Burro, 2 Uova, Zucchero, Latte, Lievito per dolci', 'https://www.giallozafferano.it/images/243-24387/Pancakes-allo-sciroppo-d-acero_450x300.jpg', 30, 12, '1. Versate nella ciotola...\n2. Setacciate anche il lievito...\n3. Mescolate delicatamente...\n4. Lasciate cuocere...\n5. I pancake cotti si possono conservare in frigorifero per un paio di giorni');
+
+
+INSERT INTO categoria(nome) VALUE ('Primi Piatti');
+INSERT INTO categoria(nome) VALUE ('Secondi Piatti');
+INSERT INTO categoria(nome) VALUE ('Contorni');
+INSERT INTO categoria(nome) VALUE ('Dolci');
