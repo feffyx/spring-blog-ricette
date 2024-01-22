@@ -19,4 +19,8 @@ public class Ricetta {
     private String testoRicetta;
 
 
+    @ManyToOne
+    @JoinColumn(name = "categoria_id")
+    private Categoria categoria;
+
 }
