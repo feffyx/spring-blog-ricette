@@ -3,7 +3,7 @@ package org.test.springblogricette.model;
 import jakarta.persistence.*;
 
 @Entity
-public class Ricette {
+public class Ricetta {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
